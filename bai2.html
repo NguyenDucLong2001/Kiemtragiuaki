@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Long</title>
+</head>
+<body>
+<script>
+    let l;
+    l = parseFloat(prompt("nhap 1 so bat ky"));
+    let long;
+    long = true;
+    if (l <2){
+        long = false;
+    }
+    else {
+        if (l == 2){
+            long = true;
+        }
+        else {
+            if (l % 2==0){
+                long = false;
+            }
+            else {
+            for (l=3;l<n;l=l+2){
+                if (n%l ==0){
+                    long = false;
+                    break;
+                }
+            }
+
+            }
+        }
+    }
+   if (long){
+       alert("la so nguyen to");
+   }
+   else {
+       alert("khong la so nguyen to");
+   }
+</script>
+</body>
+</html>

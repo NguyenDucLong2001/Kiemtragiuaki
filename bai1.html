@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Long</title>
+</head>
+<body>
+<script>
+    let Bai1;
+    let Toan;
+    let Van;
+    let Anh;
+    do {
+        Toan = parseFloat(prompt("Nhap diem Toan" ));
+    }
+    while (Toan<0 || Toan >10){
+    }
+    do {
+        Anh = parseFloat(prompt("Nhap diem Anh" ));
+    }
+    while (Anh<0 || Anh >10){
+    }
+    do {
+        Van = parseFloat(prompt("Nhap diem Van"));
+    }
+    while (Van<0 || Van >10){
+    }
+    let tb;
+    tb = (Toan*2+Anh*2+Van)/5;
+    if (tb<5) {
+        alert("khong dat");
+    } else {
+            if (5<=tb && tb<7.5){
+                alert("dat");
+        } else {
+                if (7.6<=tb && tb<8.5){
+                    alert("kha");
+                }else alert("Tot")}
+            }
+</script>
+</body>
+</html>
